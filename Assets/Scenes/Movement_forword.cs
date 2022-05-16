@@ -67,6 +67,7 @@ public class Movement_forword : MonoBehaviour
     public int I_b_v;
     public int J_b_v;
     public int bmttwovalueadd;
+    public int addds;
 
     // just for UI value 
     public TextMeshProUGUI[] number_text;
@@ -936,7 +937,8 @@ public void button_Click_for_winner_chance()
         movement_value_add = bmt;
         isrunign = true;
         destibdistribution.is_all_get = c;
-        colision(bmt); 
+        colision(bmt);
+        addds = 10;
     }
 
     public void colision( int bmt)
